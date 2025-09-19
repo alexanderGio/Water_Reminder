@@ -1,36 +1,39 @@
-<ion-header [translucent]="true">
-</ion-header>
-
 <ion-content [fullscreen]="true">
-<h1>WATER REMINDER</h1>
-<p>Integrantes:</p>
+  <div class="container">
+    <h1>WATER REMINDER</h1>
+    <p>Integrantes:</p>
 
-<ion-grid>
-  <ion-row>
-    <ion-col><ion-img src="assets/img/chuu.jpg"></ion-img></ion-col>
-    <ion-col><ion-img src="assets/img/chuu.jpg"></ion-img></ion-col>
-    <ion-col><ion-img src="assets/img/chuu.jpg"></ion-img></ion-col>    
-  </ion-row> 
-  <ion-row>
-    <ion-col><figcaption>fulano ciclano fulano</figcaption></ion-col>
-    <ion-col><figcaption>fulano ciclano fulano</figcaption></ion-col>
-    <ion-col><figcaption>fulano ciclano fulano</figcaption></ion-col>  
-  </ion-row> 
-</ion-grid>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="4" class="image-col">
+          <ion-img src="assets/img/chuu.jpg"></ion-img>
+          <figcaption>Geovana Alexander</figcaption>
+        </ion-col>
+        <ion-col size="4" class="image-col">
+          <ion-img src="assets/img/chuu.jpg"></ion-img>
+          <figcaption>Lucas Estevão</figcaption>
+        </ion-col>
+        <ion-col size="4" class="image-col">
+          <ion-img src="assets/img/chuu.jpg"></ion-img>
+          <figcaption>Alice Paiva</figcaption>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 
-<ion-card>
-  <ion-card-header>
-    <ion-card-title>Sobre nosso app:</ion-card-title>
-  </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Sobre nosso app:</ion-card-title>
+      </ion-card-header>
 
-  <ion-card-content>
-    Nosso aplicativo tem como objetivo calcular a 
-  quantidade necessária diária de consumo de água do usúario
-  e o lembrar de beber água por notificações de tempos em tempos.
-  Utilizamos uma API metereológica para somar ao cálculo personalizado de cada usuário 
-  baseando se na temperatura do ambiente local em que ele está localizado.
-  Como funções adicionais temos um contador de KM caminhados e uma barra de desidratação
-  que diminui de acordo com o esforço fisíco do usuário.
-  </ion-card-content>
-</ion-card>
+      <ion-card-content>
+        Nosso aplicativo foi desenvolvido com o objetivo de auxiliar o usuário a manter hábitos mais saudáveis, calculando automaticamente a quantidade ideal de água que deve ser consumida diariamente. Além disso, ele envia lembretes inteligentes por meio de notificações em intervalos programados, incentivando o usuário a se hidratar ao longo do dia.
+
+        Para tornar esse cálculo ainda mais preciso, integramos uma API meteorológica que considera a temperatura do ambiente em que o usuário está localizado. Dessa forma, o aplicativo adapta a recomendação de consumo de água de acordo com as condições climáticas, garantindo um acompanhamento mais personalizado e eficaz.
+
+        Entre as funcionalidades extras, o usuário conta com um contador de quilômetros percorridos, que monitora suas atividades físicas, e uma barra de desidratação dinâmica, que diminui conforme o esforço físico realizado. Esses recursos adicionais não apenas reforçam a importância da hidratação, mas também tornam a experiência mais interativa e motivadora.
+
+        Em resumo, nosso aplicativo combina tecnologia, saúde e praticidade, oferecendo uma solução completa para quem deseja cuidar melhor do corpo e manter a hidratação sempre em dia.
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>
