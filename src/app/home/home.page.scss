@@ -1,21 +1,60 @@
+.container { 
+ margin-top: 40px; // ajuste conforme necessário
+}
+
 ion-content {
-  --background: rgb(102, 102, 226);
-  --color: white;
+  --background: #E3F2FD;  // azul claro de fundo
+  --color: #333;          // cor do texto
+  padding-top: 40px;
   text-align: center;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   font-family: sans-serif;
+  color: #1565C0; // azul escuro pro título
+  margin-top: 0;
 }
 
-ion-col {
-  color: #fff;
+p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.image-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ion-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border: 2px solid #BBDEFB; // contorno azul-claro
+}
+
+figcaption {
+  font-size: 12px;
+  color: #444;
   text-align: center;
+  max-width: 80px;
+  word-wrap: break-word;
 }
 
 ion-card {
-  --background: rgb(9, 9, 134) ;
-  --color: white;
+  --background: #FFFFFF;
+  --color: #222;
+  margin-top: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+ion-card-title {
+  font-size: 18px;
+  color: #1565C0; // título do card em azul escuro
 }
